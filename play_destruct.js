@@ -39,4 +39,7 @@ const hobbies = ['reading', 'cooking'];
     const [hobby1, hobby2] = hobbies;
     console. log(hobby1, hobby2);
     /* Reminders when using destructuring:
-    //- The property name must match the object property name.
+    - The property name must match the object property name.
+    - The property name must be enclosed in curly braces.
+    - The property name must be followed by a colon.
+    */
